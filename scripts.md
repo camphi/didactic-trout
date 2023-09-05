@@ -1,2 +1,3 @@
-npx tailwindcss -i ./css/src/input.css -o ./css/dist/output.css --watch
+npx tailwindcss -i ./src/css/tailwind.css -o ./css/main.css --watch
 npx tailwindcss -o build.css --minify
+http-server
